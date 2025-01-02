@@ -1,0 +1,17 @@
+FUNCTION IN JS:-> It is an Object.
+                 It is a block of code which is used to perform some specific task.
+                 It will execute only when it is called.
+                 To call a function we need function reference and paranthesis ().
+                 Name of a function is variable which hold the reference of function object.
+                 Each function have their own this keyword. Accept arrow function.
+                 The main advantage of function is we can achieve code reusability.
+
+    Parameter:-> The variable declared in the function defination is known as parameters.
+                 It have local scope.
+                 It is used to hold the value passed by a caller.
+    Arguments:-> The value passed in the method call statement is known as arguments.
+                 An arguments can be a literal, variable or an expression which gives a results.
+    Return:-> It is a keyword used as a control transfer statement in a function.
+              Return will stop the execution of the function and transfer control along with data to the caller.
+              
+    Hoisting and TDZ in function:=> 
