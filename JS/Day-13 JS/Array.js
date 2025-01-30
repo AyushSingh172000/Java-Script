@@ -56,7 +56,7 @@ console.log(x)
 
 // let x= arr.splice(2,0,"c","d")
 // console.log(arr);
-// console.log(x);// It will return an Array and it this case it will return the blank Array[].
+// console.log(x);// It will return an Array and in this case it will return the blank Array[].
 
 //For Deletion:->
 // const arr=["a","b","e","c"]
@@ -74,10 +74,10 @@ console.log(x)
 
 //Method: //6. Slice()->
 
-// const movies=["Race-3","PK","Dhammal","KGF","Welcome","PHP","Marco"]
-// const comedymovies = movies.slice(1,3)
-// comedymovies.push(movies.slice(4,6))
-// console.log(comedymovies.flat());
+const movies=["Race-3","PK","Dhammal","KGF","Welcome","PHP","Marco"]
+const comedymovies = movies.slice(1,3)
+comedymovies.push(movies.slice(4,6))
+console.log(comedymovies.flat());
 
 
 //Method: //7. lastindexOf()
@@ -130,9 +130,9 @@ console.log(x)
 // console.log(x);
 
 
-let arr=[[1,2,3][4,5,6][7,8,9]]
-let total=arr.reduce((acc1,row)=>{
-        acc1= acc1+row.reduce((acc2,val)=> acc2+val, 0)
-    return acc1; 
-},0)
-console.log(total);
+// let arr=[[1,2,3][4,5,6][7,8,9]]
+// let total=arr.reduce((acc1,row)=>{
+//         acc1= acc1+row.reduce((acc2,val)=> acc2+val, 0)
+//     return acc1; 
+// },0)
+// console.log(total);
